@@ -1,6 +1,6 @@
-#cat >/etc/nginx/conf.d/xray.conf <<EOF
 domain=$(cat /etc/xray/domain)
-cat >/root/cinta <<EOF
+#cat >/root/cinta <<EOF
+cat >/etc/nginx/conf.d/xray.conf <<EOF
     server {
              listen 80;
              listen [::]:80;
