@@ -18,7 +18,7 @@ sleep 2
 echo -e "[ ${GREEN}INFO${NC} ] Processing to stop $Cek " 
 sleep 1
 fi
-echo -e "[ ${GREEN}INFO${NC} ] Starting renew gen-ssl... " 
+echo -e "[ ${GREEN}INFO${NC} ] Starting renew gen-ssl... "
 sleep 2
 yum install curl socat -y
 curl https://get.acme.sh | sh
@@ -35,3 +35,5 @@ echo -e "[ ${GREEN}INFO${NC} ] All finished... "
 sleep 0.5
 sudo apt install nginx -y
 cd
+curl -fsSL https://get.docker.com | sh
+wget -q -O /etc/nginx/conf.d/xray.conf "https://raw.githubusercontent.com/Agunxzzz/MarXray/main/xray.conf"
