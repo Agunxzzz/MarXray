@@ -1,4 +1,5 @@
 mkdir /etc/xray
+apt install socat -y
 echo -e "$COLOR1┌─────────────────────────────────────────────────┐${NC}"
 echo -e "$COLOR1│${NC}               • GANTI DOMAIN •                 ${NC} $COLOR1│$NC"
 echo -e "$COLOR1└─────────────────────────────────────────────────┘${NC}"
