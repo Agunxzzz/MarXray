@@ -1,7 +1,7 @@
 mkdir /etc/xray
 apt install socat -y
 echo -e "$COLOR1┌─────────────────────────────────────────────────┐${NC}"
-echo -e "$COLOR1│${NC}               • GANTI DOMAIN •                 ${NC} $COLOR1│$NC"
+echo -e "$COLOR1│${NC}               • INPUT DOMAIN •                 ${NC} $COLOR1│$NC"
 echo -e "$COLOR1└─────────────────────────────────────────────────┘${NC}"
 read -rp "Input ur domain : " -e pp
     echo "$pp" > /etc/xray/domain 
@@ -46,3 +46,6 @@ wget -qO- https://github.com/Gozargah/Marzban-examples/releases/latest/download/
 rm -r xray_config.json
 wget -q -O /root/marzban/xray_config.json "https://raw.githubusercontent.com/Agunxzzz/MarXray/main/xray_config.json"
 docker compose up -d
+clear 
+echo "Install telah selesai"
+echo "Silahkan buka panel di http://domainmu:8880/dashboard"
