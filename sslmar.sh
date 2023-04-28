@@ -33,5 +33,5 @@ echo -e "[ ${GREEN}INFO${NC} ] Starting service $Cek "
 sleep 2
 echo -e "[ ${GREEN}INFO${NC} ] All finished... " 
 sleep 0.5
-echo ""
+sudo apt install nginx -y
 cd
