@@ -94,7 +94,7 @@
         {
             "tag": "SHADOWSOCKS_INBOUND",
             "listen": "0.0.0.0",
-            "port": 2096,
+            "port": 2016,
             "protocol": "shadowsocks",
             "settings": {
                 "clients": [],
