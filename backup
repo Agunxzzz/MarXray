@@ -24,6 +24,6 @@ cp /etc/shadow backup/
 cp /etc/gshadow backup/
 cp -r /etc/xray backup/xray
 cd /root
-zip -r $IP-$date.zip backup > /dev/null 2>&1
+zip -r backup.zip backup > /dev/null 2>&1
 
 echo "Selesai"
