@@ -19,11 +19,13 @@ user pass bisa diganti dengan command
 ```html
 nano /root/marzban/env
  ```
-setelah disimpan, silahkan masuk ke folder marzban dengan
+setelah disimpan, silahkan masuk ke folder marzban dengan 
+```html
 cd /root/marzban
+ ```
 lalu
-docker compose down
-docker compose up -d
-
+```html
+docker compose down && docker compose up -d
+ ```
 
 
