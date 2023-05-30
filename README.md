@@ -11,13 +11,14 @@ Ini Marzban (https://github.com/Gozargah/Marzban) yang saya modif agar vmess bis
  
   harus ada domain dulu
  
-buka webnya dengan mengunjungi http://domainmu:8880/dashboard
-user: admin
+buka webnya dengan mengunjungi http://domainmu:8880/dashboard <br>
+user: admin <br>
 pass: admin
 
 user pass bisa diganti dengan command
+```html
 nano /root/marzban/env
-
+ ```
 setelah disimpan, silahkan masuk ke folder marzban dengan
 cd /root/marzban
 lalu
