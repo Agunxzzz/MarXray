@@ -28,7 +28,11 @@ lalu
 docker compose down && docker compose up -d
  ```
  
- Saat masuk, setting host di menu kanan atas
+ Saat masuk, setting host di menu kanan atas <br>
  ![Screenshot_20230404-154004_Termius](https://raw.githubusercontent.com/Agunxzzz/MarXray/main/vmess.png)
+ ![Screenshot_20230404-154004_Termius](https://raw.githubusercontent.com/Agunxzzz/MarXray/main/vless.png)
+ ![Screenshot_20230404-154004_Termius](https://raw.githubusercontent.com/Agunxzzz/MarXray/main/trojan.png)
+ <br>
+ apply
 
 
