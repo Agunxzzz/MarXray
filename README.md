@@ -27,5 +27,8 @@ lalu
 ```html
 docker compose down && docker compose up -d
  ```
+ 
+ Saat masuk, setting host di menu kanan atas
+ ![Screenshot_20230404-154004_Termius](https://raw.githubusercontent.com/Agunxzzz/MarXray/main/vmess.png)
 
 
