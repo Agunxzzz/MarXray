@@ -9,4 +9,20 @@ Ini Marzban (https://github.com/Gozargah/Marzban) yang saya modif agar vmess bis
  wget https://raw.githubusercontent.com/Agunxzzz/MarXray/main/sslmar.sh && chmod 755 sslmar.sh && ./sslmar.sh
  ```
  
- harus ada domain dulu
+  harus ada domain dulu
+ 
+buka webnya dengan mengunjungi http://domainmu:8880/dashboard
+user: admin
+pass: admin
+
+user pass bisa diganti dengan command
+nano /root/marzban/env
+
+setelah disimpan, silahkan masuk ke folder marzban dengan
+cd /root/marzban
+lalu
+docker compose down
+docker compose up -d
+
+
+
