@@ -1,4 +1,4 @@
-# MarXray (JANGAN DI INSTALL, KARENA DARI MARZBANNYA LAGI DI UPDATE)
+# MarXray 
 ## Tested only on Ubuntu 20.04 <br>
 Ini Marzban (https://github.com/Gozargah/Marzban) yang saya tambahi nginx agar vmess bisa multipath dan semua bisa ssl+nonssl
   
