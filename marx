@@ -1,0 +1,19 @@
+if [[ $1 == start ]]
+then
+  cd /opt/marzban/
+  docker compose up -d
+elif [[ $1 == stop ]]
+then
+  cd /opt/marzban/
+  docker compose down
+elif [[ $1 == rename ]]
+then
+  cd /opt/marzban/
+  nano .env
+elif [[ $1 == restart ]]
+then
+  cd /opt/marzban/
+  docker compose down && docker compose up -d
+else
+  echo "goreng"
+fi
