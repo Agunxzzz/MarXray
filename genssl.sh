@@ -1,4 +1,5 @@
 clear
+apt install socat -y
 domain=$(cat /etc/xray/domain)
 Cek=$(lsof -i:80 | cut -d' ' -f1 | awk 'NR==2 {print $1}')
 if [[ ! -z "$Cek" ]]; then
